@@ -1,9 +1,36 @@
 apiVersion: v1
 entries:
+  localstack:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: latest
+    created: "2021-12-17T14:27:46.424535+09:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 1.x.x
+    description: LocalStack - a fully functional local AWS cloud stack
+    digest: 4862359cab90cac01d370ee2f5b42c746233d24ecb9d8276d792575f15bf67ca
+    icon: https://localstack.cloud/images/localstack.png
+    keywords:
+    - aws
+    - localstack
+    maintainers:
+    - email: waldemar.hummer@gmail.com
+      name: Waldemar Hummer
+    name: localstack
+    sources:
+    - https://localstack.cloud/
+    - https://github.com/localstack/localstack
+    type: application
+    urls:
+    - localstack-0.3.7.tgz
+    version: 0.3.7
   redis:
   - apiVersion: v1
     appVersion: 5.0.7
-    created: "2021-12-15T16:53:49.166954+09:00"
+    created: "2021-12-17T14:27:46.427954+09:00"
     deprecated: true
     description: DEPRECATED Open source, advanced key-value store. It is often referred
       to as a data structure server since keys can contain strings, hashes, lists,
@@ -21,4 +48,4 @@ entries:
     urls:
     - redis-10.5.7.tgz
     version: 10.5.7
-generated: "2021-12-15T16:53:49.162666+09:00"
+generated: "2021-12-17T14:27:46.422629+09:00"
