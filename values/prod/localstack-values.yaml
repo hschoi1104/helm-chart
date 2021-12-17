@@ -16,8 +16,8 @@ image:
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
-nameOverride: "prod-"
-fullnameOverride: "prod-"
+nameOverride: "prod-localstack"
+fullnameOverride: "prod-localstack"
 
 ## @param extraDeploy Extra objects to deploy (value evaluated as a template)
 ##
