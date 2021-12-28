@@ -2,6 +2,9 @@ replicaCount: 1
 
 enableStartupScripts: true
 
+nameOverride: "localstack"
+fullnameOverride: "localstack"
+
 extraDeploy:
   - |
     apiVersion: v1
