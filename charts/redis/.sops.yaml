@@ -1,4 +1,0 @@
-sops:
-    kms:
-    -   arn: arn:aws:kms:ap-northeast-2:527985746564:key/d8ec4ed5-dc90-4317-9c12-d709adc9b508
-        aws_profile: hschoi1104
