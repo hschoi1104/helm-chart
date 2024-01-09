@@ -49,4 +49,21 @@ entries:
     urls:
     - charts/application-template-1.2.3.tgz
     version: 1.2.3
-generated: "2024-01-09T08:01:20.462469066Z"
+  cron-template:
+  - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2024-01-09T08:23:19.307307309Z"
+    description: A Helm chart for Modusign Applications
+    digest: d670189393e2613d8be4b52e800cc0aa8b76007e93cd91b90056788b5fa95755
+    home: https://app.modusign.co.kr
+    keywords:
+    - modusign
+    kubeVersion: '>=1.23'
+    maintainers:
+    - name: modusign
+      url: https://github.com/modusign
+    name: cron-template
+    urls:
+    - https://github.com/hschoi1104/helm-chart/releases/download/cron-template-1.2.7/cron-template-1.2.7.tgz
+    version: 1.2.7
+generated: "2024-01-09T08:23:19.307321736Z"
